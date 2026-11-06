@@ -1,0 +1,5 @@
+variant,strategy,layers_enc_dec,hidden_dim,params,size_mb_fp32,reduction_vs_baseline_pct
+baseline,none,4/4,256,41274707,165.1,0
+S1,layer reduction,2/2,256,21338451,85.4,48
+S2,dimension reduction,4/4,128,11399891,45.6,72
+S3,combined,2/2,128,6412499,25.6,84
